@@ -10,4 +10,21 @@ package com.mycompany.pruebafiguras;
  */
 public class Circulo {
     
+    int radio;
+    
+    //Creacion del constructor del clase
+    
+    Circulo(int radio){
+        this.radio = radio;
+    }
+    
+    // Creacion de los metodos -  calcular area y perimetro
+    
+    double calcularArea(){
+        return Math.PI * Math.pow(radio, 2);
+    }
+    
+    double calcularPerimetro(){
+        return 2 * Math.PI * radio;
+    }
 }

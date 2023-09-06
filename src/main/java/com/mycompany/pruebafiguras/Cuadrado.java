@@ -9,5 +9,22 @@ package com.mycompany.pruebafiguras;
  * @author omarz
  */
 public class Cuadrado {
+    int lado;
+    
+    //constructor
+    
+    public Cuadrado(int lado){
+        this.lado = lado;
+    }
+    
+    // Metodos para calcular area y perimetro
+    
+    double calcularArea(){
+        return lado * lado;
+    }
+    
+    double calcularPerimetro(){
+        return lado * 4;
+    }
     
 }
